@@ -1,3 +1,4 @@
+{
 //基础类型 string，number, boolean
 const teacherNamme:string = "Dell Lee";
 const teacherAge:number = 28.0;
@@ -47,8 +48,8 @@ const oldStudent:OldStudent = {age:18, sex:'male', name:'dell'};
 type Employee = User & {salary:number};
 const employee:Employee = {name:'dell', age:18, salary:1}
 //断言 Assersion
-const dom: undefined = document.getElementById('#root') as undefined;
-const dom1: undefined = <undefined>document.getElementById('#root');
+const dom: undefined = document.getElementById('#root') as unknown as undefined;
+const dom1: undefined = <undefined><unknown>document.getElementById('#root');
 //获取节点，在自己知道是undefined的情况下，断言
 const testString:string = 123 as any as string;
 
@@ -84,4 +85,6 @@ function checkNull(abc: string|null){
 //void 限制什么都不返回
 function getNumber(): void{
     return;
+}
+
 }

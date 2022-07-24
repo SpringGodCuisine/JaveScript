@@ -1,7 +1,0 @@
-{
-    //配置项，增强ts校验
-    "compilerOptions": {
-        "noImplicitAny": true,
-        "strictNullChecks":false
-    }
-}

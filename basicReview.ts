@@ -1,3 +1,4 @@
+{
 //对象类型, {}, Class, function, []
 const func = (str: string):number => {
     return parseInt(str, 10);
@@ -29,3 +30,4 @@ let temp = 123;
 
 let temp1: number | string = 123;
 temp1 = '456';
+}
