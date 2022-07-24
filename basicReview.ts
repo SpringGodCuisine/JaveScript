@@ -1,4 +1,4 @@
-{
+function basicReview(){
 //对象类型, {}, Class, function, []
 const func = (str: string):number => {
     return parseInt(str, 10);

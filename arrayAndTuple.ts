@@ -1,3 +1,4 @@
+function arrayAndTuple() {
 //数组存储基本数据类型
 const numberArr:number[] = [1, 2, 3];
 const stringArr:string[] = ['1', '2', '3'];
@@ -47,3 +48,4 @@ const teacherList: [string, string, number] [] = [
     ['sun', 'female', 12],
     ['moon', 'female', 11]
 ]
+}

@@ -1,4 +1,4 @@
-{
+function typeInference() {
 // type annotation 类型注解, TS变量是什么类型
 // type inference 类型推断, TS会自动的去尝试分析变量的类型
 // 如果 TS 能够自动分析变量的类型的话，我们就什么也不需要做了

@@ -1,3 +1,5 @@
+function ppp()
+{
 //private, protected, public访问类型
 class Person1{
     name:string;
@@ -7,7 +9,7 @@ class Person1{
 
 const person1 = new Person1();
 
-person.name = "hc";
+person1.name = "hc";
 
 console.log(person1.name);
 
@@ -17,7 +19,7 @@ person1.sayHi();
 //private 允许在类内被使用
 //protected 允许在类内及继承的子类中使用
 
-class Teacher2 extends Person{
+class Teacher2 extends Person1{
     public sayBye(){
         this.name;
     }
@@ -49,3 +51,5 @@ class T extends P{
         super('hc');
     }
 }
+}
+
